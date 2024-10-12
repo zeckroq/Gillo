@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+	text-decoration: none;
+}
+
+/*Nav Bar*/
+
+.navbar {
+    background: #000;
+    height: 110px;
+    font-family: calibri; 
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 25px; 
+}
+.navdiv{
+    display: flex; 
+    height: 110px;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.Logo img{
+    width: 100px;
+    height: 95px;
+    margin-left: 50px;
+  }
+
+.logo a{    
+    font-size: 35px; 
+    font-weight: 600; 
+    color: white;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+    margin-right: 100px;
+}
+
+.links li{
+  list-style: none;
+}
+
+.links li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 15px;
+  border-radius: 50px;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.links li a:hover{
+    background: #857d7d;
+  }
+
+/*Buttons*/
+
+button{
+    background-color: gray; 
+    margin-left: 5px; 
+    border-radius: 5px; 
+    padding: 10px; 
+    width: 90px;
+}
+button a{
+    color: white; 
+    font-weight: bold; 
+    font-size: 15px;
+}
+
+/*Body*/
+
+.IntroImage{
+    height: 900px; 
+    width: 100%;
+  }
+
+.DashboardBody{
+    background-color: rgb(78, 70, 70);
+    height: 100%;
+    min-width: 100%;
+  }
+
+/*About*/
+
+.SectionOfAbout {
+    width:100%;
+    height: 100%;
+    padding: 95px 0px;
+}
+
+.DivOfAbout {
+    width: 1130px;
+    max-width: 95%;
+    height: 589px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ContentOfAbout h1 {
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.ContentOfAbout h4 {
+  color: white;
+    font-size: 22px;
+}
+
+.ContentOfAbout h5 {
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.ContentOfAbout span {
+    color: #f9004d;
+}
+
+.ContentOfAbout p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
